@@ -22,7 +22,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://personal-finance-tracker-9qvi.vercel.app/login"
+      "https://personal-finance-tracker-9qvi.vercel.app"
     ],
     credentials: true,
   })
