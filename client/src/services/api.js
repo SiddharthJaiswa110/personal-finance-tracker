@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api/v1"
+  baseURL: "https://personal-finance-tracker-1-1rp5.onrender.com/api/v1"
 });
 
 // Attach token automatically
